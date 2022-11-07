@@ -12,8 +12,8 @@ exports.sendEmail = functions.database.ref("User/U1/Notify")
         port: 465,
         secure: true,
         auth: {
-          user: "parthsaliya86@gmail.com",
-          pass: "sph@8448",
+          user: "abc@gmail.com",
+          pass: "pass",
         },
       });
       if (newval == 1) {
